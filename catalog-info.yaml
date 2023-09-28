@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tutorial-backstage-nodejs"
+  annotations:
+    github.com/project-slug: sgahlot/backstage-tutorial-nodejs
+    'quay.io/repository-slug': 'sgahlot/keycloak-test'
+    vault.io/secrets-path: janus-2
+    vault.io/secrets-engine: secret
+spec:
+  type: service
+  owner: Sandip Gahlot
+  lifecycle: experimental
